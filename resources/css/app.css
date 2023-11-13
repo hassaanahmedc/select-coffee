@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg_img {
+    background: url('../images/bodyWrapper.png') repeat scroll 50% 0 #312823;
+    color: #C2B9AC;
+    padding-bottom: 0px;
+    width: 100%;
+    float: left;
+}
+
+.bg_img_sec {
+    background: url('../images/Wrapper.png') 50% 0 no-repeat transparent;
+    padding-top: 0px;
+    width: auto;
+    margin: 0px auto 0px auto;
+    overflow: hidden;
+
+}

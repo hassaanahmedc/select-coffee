@@ -12,10 +12,12 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                sans: ['Times New Roman', ...defaultTheme.fontFamily.sans],
+                salsa: ['Salsa'],
             },
         },
     },
+    
 
     plugins: [forms], 
 };

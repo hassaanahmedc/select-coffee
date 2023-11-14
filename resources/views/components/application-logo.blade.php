@@ -1,1 +1,1 @@
-<img src="https://placewaifu.com/image/200" class="rotate-180">
+<img src="https://placewaifu.com/image/300/150" class="rotate-180">

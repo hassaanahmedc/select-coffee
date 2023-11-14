@@ -8,19 +8,27 @@
     box-sizing: border-box;
 }
 
-.bg_img {
-    background: url('../images/bodyWrapper.png') repeat scroll 50% 0 #312823;
-    color: #C2B9AC;
+.bg_img_body {
+    background: url("../images/bodyWrapper.png") repeat scroll 50% 0 #312823;
+    color: #c2b9ac;
     padding-bottom: 0px;
     width: 100%;
     float: left;
 }
 
-.bg_img_sec {
-    background: url('../images/Wrapper.png') 50% 0 no-repeat transparent;
+.bg_img_body_grad {
+    background: url("../images/Wrapper.png") 50% 0 no-repeat transparent;
     padding-top: 0px;
     width: auto;
     margin: 0px auto 0px auto;
     overflow: hidden;
+}
 
+.bg_img_cat {
+    padding-top: 0px;
+    min-height: 80px;
+    z-index: 88;
+    clear: both;
+    margin-left: 0px;
+    background: url("../images/cat_navbar.png") 0px 0px no-repeat transparent;
 }

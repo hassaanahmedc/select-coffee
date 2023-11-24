@@ -7,6 +7,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+[x-cloak] {
+    display: none;
+}
 
 .bg_img_body {
     background: url("../images/bodyWrapper.png") repeat scroll 50% 0 #312823;
@@ -31,4 +34,12 @@
     clear: both;
     margin-left: 0px;
     background: url("../images/cat_navbar.png") 0px 0px no-repeat transparent;
+}
+
+.bg_img_crousel {
+    font-size: 1em;
+    padding: 20px 0px 1px 0px;
+    width: 100%;
+    float: left;
+    background: url("../images/crousl_bg.png") no-repeat scroll 50% 0;
 }
